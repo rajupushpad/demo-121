@@ -22,7 +22,7 @@
           }
         ]
       },
-      "photo": ["https: //i.imgur.com/MK3eW3As.jpg"],
+      "photo": ["https://i.imgur.com/MK3eW3As.jpg"],
         "managingOrganization": {
           "reference": "Organization/example-org",
           "display": "Example Hospital"
