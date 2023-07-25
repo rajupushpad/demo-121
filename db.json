@@ -1,14 +1,99 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "patient": [
+    {
+      "id": "2fb4fbb6-9121-43b5-8f68-e1f536dd3a46",
+      "pid": "example-patient",
+      "resourceType": "Patient",
+      "active": true,
+      "gender": "male",
+      "birthDate": "1980-01-01",
+      "link": [],
+      "deceasedBoolean": false,
+      "deceasedDateTime": "",
+      "multipleBirthBoolean": false,
+      "multipleBirthInteger": 0,
+      "meta": {},
+      "maritalStatus": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v3/MaritalStatus",
+            "code": "M",
+            "display": "Married"
+          }
+        ]
+      },
+      "photo": ["https: //i.imgur.com/MK3eW3As.jpg"],
+        "managingOrganization": {
+          "reference": "Organization/example-org",
+          "display": "Example Hospital"
+        },
+        "address": [
+          {
+            "use": "home",
+            "country": "",
+            "postalCode": "12345",
+            "state": "California",
+            "city": "Anytown",
+            "line": [
+              "123 Main Street"
+            ]
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Smith",
+            "given": [
+              "John"
+            ],
+            "prefix": [
+              "Mr."
+            ],
+            "suffix": ""
+          }
+        ],
+        "telecom": [
+          {
+            "use": "home",
+            "system": "email",
+            "value": "john.smith@example.com"
+          },
+          {
+            "use": "home",
+            "system": "phone",
+            "value": "(555) 123-4567"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "",
+            "system": "http://example.com/patient-ids",
+            "value": "12345"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "display": "English",
+                  "system": "http://hl7.org/fhir/ValueSet/languages",
+                  "code": "en"
+                }
+              ],
+              "text": "English"
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/example-practitioner",
+            "display": "Dr. Jane Doe"
+          }
+        ],
+        "animal": [],
+        "contact": []
+      }
+    ]
   }
-}
