@@ -98,5 +98,59 @@
         "wordCount": 0,
         "category": "news"
     }
+  ],
+  "users": [
+    {
+        "id": "1",
+        "firstName": "xxxx",
+        "lastName": "dsff",
+        "email": "dsdfsf@yopmail.com",
+        "city": "indore",
+        "state": "madhya pradesh",
+        "country": "india",
+        "contactNo": "999999999",
+        "whatsAppNo": "99999999",
+        "dateCreated": "12/1/12",
+        "image": ""
+    },
+    {
+        "id": "1",
+        "firstName": "xxxx",
+        "lastName": "dsff",
+        "email": "dsdfsf@yopmail.com",
+        "city": "indore",
+        "state": "madhya pradesh",
+        "country": "india",
+        "contactNo": "999999999",
+        "whatsAppNo": "99999999",
+        "dateCreated": "12/1/12",
+        "image": ""
+    },
+    {
+        "id": "1",
+        "firstName": "xxxx",
+        "lastName": "dsff",
+        "email": "dsdfsf@yopmail.com",
+        "city": "indore",
+        "state": "madhya pradesh",
+        "country": "india",
+        "contactNo": "999999999",
+        "whatsAppNo": "99999999",
+        "dateCreated": "12/1/12",
+        "image": ""
+    },
+    {
+        "id": "1",
+        "firstName": "xxxx",
+        "lastName": "dsff",
+        "email": "dsdfsf@yopmail.com",
+        "city": "indore",
+        "state": "madhya pradesh",
+        "country": "india",
+        "contactNo": "999999999",
+        "whatsAppNo": "99999999",
+        "dateCreated": "12/1/12",
+        "image": ""
+    }
   ]
 }
