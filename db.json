@@ -158,6 +158,6 @@
    {"id": 2, "val": "Article"},
    {"id": 3, "val": "Local News"},
    {"id": 4, "val": "Internation News"},
-   {"id": 5, "val": "Something"},
+   {"id": 5, "val": "Something"}
   ]
 }
