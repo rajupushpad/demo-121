@@ -152,5 +152,12 @@
         "dateCreated": "12/1/12",
         "image": ""
     }
+  ],
+  "categories": [
+    "News",
+    "Article",
+    "Cricked",
+    "Local News",
+    "Internation News"
   ]
 }
